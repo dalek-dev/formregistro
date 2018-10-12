@@ -1,1 +1,159 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+/* forms */
+.categorias-container {
+    display: flex;
+    flex-direction: column;
+  }
+.clientes-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+  min-width: 150px;
+  max-width: 950px;
+  width: 100%;
+}
+
+/* title */
+.title-container {
+    box-sizing: border-box;
+  width: 100%;
+  padding: 2rem;
+}
+.decorative-title {
+  position: relative;
+  width: 85%;
+  margin: 0 auto;
+}
+.decorative-title span {
+  display: block;
+  padding: 2rem 0.5rem 1rem;
+  background-color: #3a4040;
+  color: #f2f2f2;
+  text-align: center;
+  font: 2rem sans-serif;
+  letter-spacing: 0.3rem;
+}
+@media (min-width: 576px) {
+  .decorative-title {
+    width: 100%;
+  }
+  .decorative-title span {
+    font-size: 3rem;
+  }
+}
+.decorative-bar {
+  position: absolute;
+  background-color: #3a4040;
+}
+.left.thick {
+  left: -20px;
+}
+.left.thin {
+  right: 0;
+}
+.left.vertical,
+.left.horizontal.thick {
+  top: -20px;
+}
+.left.horizontal.thin {
+  top: -16px;
+}
+.right.thick {
+  right: -20px;
+}
+.right.thin {
+  left: 0;
+}
+.right.vertical,
+.right.horizontal.thick {
+  bottom: -20px;
+}
+.right.horizontal.thin {
+  bottom: -16px;
+}
+.vertical {
+  width: 8px;
+  height: 80px;
+}
+.horizontal.thick {
+  width: 30%;
+  height: 8px;
+}
+.horizontal.thin {
+  width: 80%;
+  height: 2px;
+}
+
+
+.mat-input-wrapper{
+    width:400px !important;
+  }
+
+  /* button add style */
+
+  .add-container {
+    background: #ffd740;
+    display: block;
+    position: relative;
+    float: left;
+    width: 160px;
+    padding: 0;
+    margin: 30px 20px 30px 0;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    color: #FFF;
+    border-radius: 5px;
+    transition: all 0.2s ;
+    cursor: pointer;
+  }
+  .add-container:hover {
+    background: #efa424;
+  }
+
+
+  /* button submit style */
+  
+  .button-container{
+    text-align: center;
+    width: 250px;
+    outline:none;
+    border:none;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    top:50%; 
+    left:50%;
+    position:relative;
+    background-color:#296F92;
+    font-size:15px;
+    font-weight:30px;
+    color:white;
+    text-transform:uppercase;
+    letter-spacing:2px;   
+    padding:15px 40px;
+    cursor: pointer;
+
+    border-radius:20px;
+    box-shadow:0 6px #667659;
+  }
+  
+  .button-container:hover{
+    cursor: pointer;
+    box-shadow:0 4px #667659;
+    top:2px;
+  }
+  .button-container:active{
+    cursor: pointer;
+    box-shadow:none;
+    top:6px;
+  }
+
+  /* button submit */
+ 
